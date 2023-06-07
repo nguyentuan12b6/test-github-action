@@ -3,7 +3,7 @@ run-name: ${{ github.actor }} push code
 on: [push]
 jobs:
   Setup-nodejs:
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
     steps:
       - name: Check out code
         uses: actions/checkout@v3
