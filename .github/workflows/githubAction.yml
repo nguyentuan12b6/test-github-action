@@ -1,5 +1,5 @@
-name: Setup nodejs
-run-name: ${{ github.actor }} doing setup nodejs
+name: Set up nodejs
+run-name: ${{ github.actor }} push code
 on: [push]
 jobs:
   Setup-nodejs:
